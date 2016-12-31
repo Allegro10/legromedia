@@ -4,6 +4,7 @@ body {
 }
 
 section#cover {
+  background-color: red;
   background-size: cover;
   background-image: url('img/bg.jpg');
   min-height:900px;
