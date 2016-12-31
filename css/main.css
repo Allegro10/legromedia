@@ -1,4 +1,4 @@
-section.cover {
+section#cover {
   background-size: cover;
   background-image: url('../img/bg.jpg');
   height: 100vh; 
