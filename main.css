@@ -438,7 +438,7 @@ Mobile
 * ============================================= 
 */
 .hero--home {
-  background: linear-gradient(rgba(0, 35, 90, 0.95), rgba(0, 35, 90, 0.75)), url(home-hero.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 35, 90, 0.95), rgba(0, 35, 90, 0.75)), url(/home-hero.jpg) no-repeat;
   background-position: center;
   background-size: cover; }
 
