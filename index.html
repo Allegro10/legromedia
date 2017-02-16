@@ -2,106 +2,84 @@
 <html>
 
 <head>
-    <title>Trial site</title>
+    <title>Layout</title>
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1" name="viewport">
-    <link href="..css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- HEADER -->
 
-    <header class="header">
-
-        <div class="container-lrg">
-            <div class="flex flex-justify aligncenter mast">
-                <a class="logo">
-                    <img class="logo" src="http://placehold.it/70x40">
+    <section class="hero hero--home">
+        <div class="wrapper">
+            <header class="main-header">
+                <a class="main-header__logo" href="/">
+                    Logo
+<!--                    <img src="/assets/logo.svg" width="115px" alt="Logo">-->
                 </a>
-                <div class="">
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Services</a>
-                    <a class="nav-link" href="#">Work</a>
-                    <a class="nav-link" href="#">Contact</a>
-                </div>
-            </div>
+                <nav class="main-header__nav hidden-sm hidden-xs">
+                    <a class="main-nav__link" href="#">About</a>
+                    <a class="main-nav__link" href="#">Work</a>
+                    <a class="main-nav__link" href="#">Pricing</a>
+                    <a class="main-nav__link" href="#">Contact</a>
+                </nav>
+            </header>
         </div>
-
-        <div class="container-lrg">
-            <h1 class="heading text-center">Header to go here</h1>
+        <div class="home-cta wrapper">
+            <h1 class="home-cta__header">The easy way to do business</h1>
+            <h2 class="home-cta__subheader">Building partnerships to help your online business</h2>
+            <a class="btn btn-primary btn--large" href="#">Contact</a>
         </div>
+    </section>
 
-        <div class="container-lrg">
-            <div class="feature feature-img-holder">
-                <div class="feature--img">
-                    <img src="http://placehold.it/640x448">
-                </div>
-            </div>
-        </div>
-
-        <div class="container-sml text-center">
-            <h2 class="paragraph text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-        </h2>
-            <a class="btn" href="#">Find out more</a>
-        </div>
-    </header>
-
-    <!-- SERVICES -->
-    <div class="feature services">
-        <div class="container-lrg flex">
-            <div class="col">
-                <p class="text-center icon"><img src="http://placehold.it/70x70"></p>
-                <h3 class="subheading text-center">Column 1</h3>
-                <p class="paragraph">
-                    Nescius quorum ullamco proident de noster nescius ad esse aliqua qui mandaremus de tamen, e ea concursionibus.
+    <section class="banner home-banner">
+        <div class="wrapper">
+            <div class="home-banner__column">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path d="M17.237,3.056H2.93c-0.694,0-1.263,0.568-1.263,1.263v8.837c0,0.694,0.568,1.263,1.263,1.263h4.629v0.879c-0.015,0.086-0.183,0.306-0.273,0.423c-0.223,0.293-0.455,0.592-0.293,0.92c0.07,0.139,0.226,0.303,0.577,0.303h4.819c0.208,0,0.696,0,0.862-0.379c0.162-0.37-0.124-0.682-0.374-0.955c-0.089-0.097-0.231-0.252-0.268-0.328v-0.862h4.629c0.694,0,1.263-0.568,1.263-1.263V4.319C18.5,3.625,17.932,3.056,17.237,3.056 M8.053,16.102C8.232,15.862,8.4,15.597,8.4,15.309v-0.89h3.366v0.89c0,0.303,0.211,0.562,0.419,0.793H8.053z M17.658,13.156c0,0.228-0.193,0.421-0.421,0.421H2.93c-0.228,0-0.421-0.193-0.421-0.421v-1.263h15.149V13.156z M17.658,11.052H2.509V4.319c0-0.228,0.193-0.421,0.421-0.421h14.308c0.228,0,0.421,0.193,0.421,0.421V11.052z"></path>
+                </svg>
+                <h3>Digital</h3>
+                <p>
+                    Excepteur eram cernantur laborum ut sed possumus eu incurreret.
                 </p>
+                <a class="btn btn-primary btn--small" href="#">More info</a>
             </div>
-            <div class="col">
-                <p class="text-center icon"><img src="http://placehold.it/70x70"></p>
-                <h3 class="subheading text-center">Column 2</h3>
-                <p class="paragraph">
-                    Nescius quorum ullamco proident de noster nescius ad esse aliqua qui mandaremus de tamen, e ea concursionibus.
+            <div class="home-banner__column">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path d="M17.728,4.419H2.273c-0.236,0-0.429,0.193-0.429,0.429v10.304c0,0.234,0.193,0.428,0.429,0.428h15.455c0.235,0,0.429-0.193,0.429-0.428V4.849C18.156,4.613,17.963,4.419,17.728,4.419 M17.298,14.721H2.702V9.57h14.596V14.721zM17.298,8.712H2.702V7.424h14.596V8.712z M17.298,6.566H2.702V5.278h14.596V6.566z M9.142,13.005c0,0.235-0.193,0.43-0.43,0.43H4.419c-0.236,0-0.429-0.194-0.429-0.43c0-0.236,0.193-0.429,0.429-0.429h4.292C8.948,12.576,9.142,12.769,9.142,13.005"></path>
+                </svg>
+                <h3>Ecommerce</h3>
+                <p>
+                    Excepteur eram cernantur laborum ut sed possumus eu incurreret.
                 </p>
+                <a class="btn btn-primary btn--small" href="#">More info</a>
             </div>
-            <div class="col">
-                <p class="text-center icon"><img src="http://placehold.it/70x70"></p>
-                <h3 class="subheading text-center">Column 3</h3>
-                <p class="paragraph">
-                    Nescius quorum ullamco proident de noster nescius ad esse aliqua qui mandaremus de tamen, e ea concursionibus.
+            <div class="home-banner__column">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path d="M18.555,15.354V4.592c0-0.248-0.202-0.451-0.45-0.451H1.888c-0.248,0-0.451,0.203-0.451,0.451v10.808c0,0.559,0.751,0.451,0.451,0.451h16.217h0.005C18.793,15.851,18.478,14.814,18.555,15.354 M2.8,14.949l4.944-6.464l4.144,5.419c0.003,0.003,0.003,0.003,0.003,0.005l0.797,1.04H2.8z M13.822,14.949l-1.006-1.317l1.689-2.218l2.688,3.535H13.822z M17.654,14.064l-2.791-3.666c-0.181-0.237-0.535-0.237-0.716,0l-1.899,2.493l-4.146-5.42c-0.18-0.237-0.536-0.237-0.716,0l-5.047,6.598V5.042h15.316V14.064z M12.474,6.393c-0.869,0-1.577,0.707-1.577,1.576s0.708,1.576,1.577,1.576s1.577-0.707,1.577-1.576S13.343,6.393,12.474,6.393 M12.474,8.645c-0.371,0-0.676-0.304-0.676-0.676s0.305-0.676,0.676-0.676c0.372,0,0.676,0.304,0.676,0.676S12.846,8.645,12.474,8.645"></path>
+                </svg>
+                <h3>Print</h3>
+                <p>
+                    Excepteur eram cernantur laborum ut sed possumus eu incurreret.
                 </p>
+                <a class="btn btn-primary btn--small" href="#">More info</a>
             </div>
         </div>
+        <div style="clear:both"></div>
+    </section>
+
+    <div class="site-footer">
+        <footer class="wrapper">
+            <nav class="site-footer__bottom">
+                <a class="site-footer__bottom-link" href="#">Terms of Use</a>
+                <a class="site-footer__bottom-link" href="#">Privacy Policy</a>
+                <p class="site-footer__copyright">© 2017 Company Ltd. All Rights Reserved.</p>
+            </nav>
+        </footer>
     </div>
-
-    <!-- SOCIAL PROOF -->
-    <div class="feature">
-        <div class="container-sml">
-            <div class="flex text-center">
-                <div>
-                    <h4 class="subheading">
-            "Nescius quorum ullamco proident de noster nescius ad esse aliqua qui mandaremus de tamen, e ea concursionibus."
-          </h4>
-                    <p class="paragraph">Malcolm, A business</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- FOOTER -->
-    <div class="footer">
-        <div class="container-sml">
-            <div class="text-center">
-                <a class="nav-link" href="#">Twitter</a>
-                <a class="nav-link" href="#">Facebook</a>
-                <a class="nav-link" href="#">Contact</a>
-            </div>
-        </div>
-    </div>
-
 
 </body>
 
