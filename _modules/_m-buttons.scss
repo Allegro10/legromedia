@@ -1,0 +1,35 @@
+/* 
+* =============================================
+* Buttons
+* ============================================= 
+*/
+
+.btn {
+    border: none;
+    color: $white;
+    text-decoration: none;
+    padding: 5px 10px;
+    @include border-radius(5px);
+    font-family: $font-family;
+    font-size: $base-font-size;
+}
+
+.btn-primary {
+    @include button-bg($red);
+}
+
+.btn--large {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 50px 15px;
+    margin: 0;
+}
+
+.btn--small {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 20px 10px;
+    margin: 0;
+}

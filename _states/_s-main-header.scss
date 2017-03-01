@@ -1,0 +1,23 @@
+/* 
+* =============================================
+* STATE - MAIN HEADER
+* ============================================= 
+*/
+
+.main-nav__link {
+    @include transition (all 0.2s ease-in-out);
+}
+
+.main-nav__link:active,
+.main-nav__link:focus,
+.main-nav__link:hover {
+    color: $corp-color-secondary;
+    @include transition (all 0.2s ease);
+}
+
+.main-nav__link:active:last-of-type,
+.main-nav__link:focus:last-of-type,
+.main-nav__link:hover:last-of-type {
+    background: rgba($white, 1);
+    border: 1px solid rgba($white, 1);
+}
