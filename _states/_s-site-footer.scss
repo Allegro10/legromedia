@@ -1,0 +1,6 @@
+.site-footer__bottom-link:active,
+.site-footer__bottom-link:focus,
+.site-footer__bottom-link:hover {
+    color: $corp-color-secondary;
+    @include transition (all 0.2s ease);
+}

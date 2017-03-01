@@ -1,0 +1,31 @@
+/* 
+* =============================================
+* SITE FOOTER
+* ============================================= 
+*/
+
+.site-footer {
+    border-top: 1px solid $gray-light;
+    padding: 45px 0;
+    @extend %clearfix;
+}
+
+.site-footer__bottom-link {
+    color: $paragraph-color;
+    display: inline-block;
+    @include font-size (12px);
+    letter-spacing: 1px;
+    padding: 11px 18px 8px;
+}
+
+.site-footer__bottom-link:first-of-type {
+    padding: 11px 18px 8px 0;
+}
+
+.site-footer__copyright {
+    color: $paragraph-color;
+    display: inline-block;
+    float: right;
+    @include font-size (12px);
+    letter-spacing: 1px;
+}

@@ -336,6 +336,14 @@ Desktop
   padding-left: 0.5rem;
   padding-right: 0.5rem; }
 
+.page--content {
+  float: left;
+  width: 66.66667%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  position: relative;
+  left: 16.66667%; }
+
 /* 
 Tablet
 */
@@ -344,7 +352,15 @@ Tablet
     float: left;
     width: 100%;
     padding-left: 0.5rem;
-    padding-right: 0.5rem; } }
+    padding-right: 0.5rem; }
+
+  .page--content {
+    float: left;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    position: relative;
+    left: 0%; } }
 /* 
 Mobile
 */
@@ -438,7 +454,7 @@ Mobile
 * ============================================= 
 */
 .hero--home {
-  background: linear-gradient(rgba(0, 35, 90, 0.95), rgba(0, 35, 90, 0.75)), url(/home-hero.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 35, 90, 0.95), rgba(0, 35, 90, 0.75)), url(assets/home-hero.jpg) no-repeat;
   background-position: center;
   background-size: cover; }
 
@@ -453,6 +469,31 @@ Mobile
     margin: 0 15px 20px;
     text-transform: uppercase; }
   .home-cta .home-cta__subheader {
+    color: #fff;
+    font-size: 22px;
+    margin: 0 15px 30px; }
+
+/* 
+* =============================================
+* HERO PAGE
+* ============================================= 
+*/
+.hero--page {
+  background: rgba(0, 35, 90, 0.95);
+  background-position: center;
+  background-size: cover; }
+
+.page-cta {
+  padding: 75px 0 25px;
+  margin: 0 auto;
+  text-align: center; }
+  .page-cta .page-cta__header {
+    color: #fff;
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin: 0 15px 20px;
+    text-transform: uppercase; }
+  .page-cta .page-cta__subheader {
     color: #fff;
     font-size: 22px;
     margin: 0 15px 30px; }

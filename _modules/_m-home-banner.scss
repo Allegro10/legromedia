@@ -1,0 +1,38 @@
+/* 
+* =============================================
+* HOME BANNER
+* ============================================= 
+*/
+
+.home-banner {
+    background: rgba($gray-light, 1);
+    padding: 45px 0;
+}
+
+.home-banner__column {
+    padding: 45px 0;
+    text-align: center;
+    p {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .btn {
+        margin-top: 1em;
+    }
+}
+
+.svg-icon {
+    width: 4em;
+    height: 4em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: $red;
+}
+
+.svg-icon circle {
+    stroke: $red;
+    stroke-width: 1;
+}
