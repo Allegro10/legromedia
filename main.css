@@ -7,12 +7,12 @@
 /* 
 Clearfix
 */
-.site-footer {
+.site-footer, .project {
   *zoom: 1; }
-  .site-footer:before, .site-footer:after {
+  .site-footer:before, .project:before, .site-footer:after, .project:after {
     content: " ";
     display: table; }
-  .site-footer:after {
+  .site-footer:after, .project:after {
     clear: both; }
 
 /* 
@@ -371,6 +371,27 @@ Mobile
 */
 * {
   box-sizing: border-box; }
+
+.main {
+  background: #f2f2f2; }
+
+.project__feature-image {
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("http://placehold.it/2000x800");
+  padding: 20em;
+  position: relative;
+  width: 100%; }
+
+.project__copy--main {
+  float: left;
+  width: 55%; }
+
+.project__copy--list {
+  float: right;
+  width: 40%; }
 
 /* 
 * =============================================

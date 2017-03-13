@@ -1,0 +1,30 @@
+
+.main {
+    background: rgba($gray-light, 1);
+}
+
+.project__feature-image {
+	background-attachment: static;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('http://placehold.it/2000x800');
+	padding: 20em;
+	position: relative;
+	width: 100%
+}
+
+
+.project {
+	@extend %clearfix;
+}
+
+.project__copy--main {
+	float: left;
+	width: 55%;
+}
+
+.project__copy--list {
+	float: right;
+	width: 40%;
+}
